@@ -3,10 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Carpool</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
+<header>
+    <h1 class="center">Carpool Bornholm</h1>
+    <br/>
+    <img src="/images/bornholm-kort.jpg" alt="Logo" class="center"/>
+    <br/>
+</header>
 
-<h1>Codelab Carpool</h1>
+<body>
+<form class="form-inline" action="/action_page.php">
+<div class="container">
+    <form class="form-inline" action="/action_page.php">
+        <div class="form-group">
+            <label for="til">Til:</label>
+            <input type="til" class="form-control" id="til" placeholder="Vælg distination" name="til">
+        </div>
+        <div class="form-group">
+            <label for="fra">Fra:</label>
+            <input type="fra" class="form-control" id="fra" placeholder="Vælg pickup" name="fra">
+        </div>
+        <div class="form-group">
+            <label for="Antal">Antal:</label>
+            <input type="Antal" class="form-control" id="antal" placeholder="Vælg antal" name="antal">
+        </div>
+        <div class="form-group">
+            <label for="Dato">Dato:</label>
+            <input type="Dato" class="form-control" id="dato" placeholder="Vælg dato" name="dato">
+
+        </div>
+
+        <button type="søg" class="btn btn-default">Søg</button>
+    </form>
+</div>
+
+    <br/>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  cursus viverra nibh nec dignissim. C
+    lass aptent taciti sociosqu ad  litora torquent per conubia nostra, per inceptos himenaeos.
+    Vestibulum  in felis pellentesque, aliquet enim vel, venenatis turpis. Integer at  egestas massa.
+    Donec ornare metus a libero imperdiet maximus.
+    Nulla  facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+</p>
 
 </body>
 </html>
